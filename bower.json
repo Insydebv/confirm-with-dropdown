@@ -1,21 +1,21 @@
 {
-  "name": "confirm-with-reveal",
-  "version": "1.0.2",
-  "homepage": "https://github.com/agoragames/confirm-with-reveal",
+  "name": "confirm-with-dropdown",
+  "version": "1.0.0",
+  "homepage": "https://www.insyde.nl",
   "authors": [
+    "Maarten van Spil <maarten@insyde.nl>",
     "Jack Letourneau <jletourneau@agoragames.com>"
   ],
-  "description": "Confirm UI actions with ZURB Foundation Reveal modals.",
-  "main": "build/confirm_with_reveal.js",
+  "description": "Confirm UI actions with Zurb Foundation Dropdowns.",
+  "main": "js/foundation_confirm_dropdown.js",
   "keywords": [
     "zurb",
     "foundation",
-    "reveal",
+    "dropdown",
     "confirm"
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "demo"
+    "**/.*"
   ]
 }
