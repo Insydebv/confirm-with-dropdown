@@ -1,4 +1,4 @@
-# confirm-with-reveal
+# confirm-with-dropdown
 Based on [Confirm with Reveal](https://github.com/agoragames/confirm-with-reveal)
 
 Replacement for window.confirm() using the dropdown plugin from ZURB Foundation 5. It might work with 6 as well but I haven't tested that.
