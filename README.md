@@ -9,11 +9,11 @@ Requires [jQuery](http://jquery.com/), as well as ZURB’s [Dropdown](http://fou
 
 ## Basic usage
 
-Run `$(document).confirmWithReveal()` after including this plugin to initialize it. This plugin must be included **after** jQuery (and if integrating with Rails, after the `jquery_ujs` plugin as well).
+Run `$(document).confirmWithDropdown()` after including this plugin to initialize it. This plugin must be included **after** jQuery and Foundation.
 
 Then simply put a `data-confirm` attribute on whatever links or buttons you like (e.g. `<a href="…" data-confirm>…</a>`. You may put this attribute directly on a form element as well to confirm all submissions.
 
-If the `data-confirm` attribute contains a plain string (e.g. `<a href="…" data-confirm="Are you sure?">…</a>`), the default `$.rails.confirm` or `window.confirm` function will perform the confirmation.
+If the `data-confirm` attribute contains a plain string (e.g. `<a href="…" data-confirm="Are you sure?">…</a>`), the default `window.confirm` function will perform the confirmation.
 
 ## Advanced usage
 
